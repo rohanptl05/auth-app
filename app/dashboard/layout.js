@@ -71,16 +71,8 @@ export default function RootLayout({ children }) {
                     Home
                   </Link>
                 </li>
-                <li className="w-full">
-                  <Link className="block px-4 py-2 rounded-2xl  hover:bg-green-500" href="/dashboard/clients" onClick={handleLinkClick}>
-                    Clients
-                  </Link>
-                </li>
-                <li className="w-full">
-                  <Link className="block px-4 py-2 rounded-2xl hover:bg-green-500" href="/dashboard/extra-expenses" onClick={handleLinkClick}>
-                    Extra Expenses
-                  </Link>
-                </li>
+            
+            
                 <li className="w-full">
                   <Link className="block px-4 py-2 rounded-2xl hover:bg-green-500" href="/dashboard/report" onClick={handleLinkClick}>
                     Report
@@ -91,16 +83,7 @@ export default function RootLayout({ children }) {
                     Profile
                   </Link>
                 </li>
-                <li className="w-full">
-                  <Link className="block px-4 py-2 rounded-2xl hover:bg-green-500" href="/dashboard/reminder" onClick={handleLinkClick}>
-                  Reminder
-                  </Link>
-                </li>
-                <li className="w-full">
-                  <Link className="block px-4 py-2 rounded-2xl hover:bg-green-500" href="/dashboard/recyclebin" onClick={handleLinkClick}>
-                    Recycle Bin
-                  </Link>
-                </li>
+               
               </ul>
 
               {/* Log Out Button */}
