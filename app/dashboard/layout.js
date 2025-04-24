@@ -45,12 +45,7 @@ export default function RootLayout({ children }) {
       <>
          <div className="container w-screen h-full flex flex-col md:flex-row min-h-screen text-black">
           {/* Top Bar (Mobile View) */}
-          <div className="bg-slate-700 p-3 flex justify-between items-center md:hidden">
-            <b className="text-white text-lg">Dashboard</b>
-            <button onClick={() => setIsOpen(!isOpen)} className="text-white">
-              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
-            </button>
-          </div>
+          
 
           {/* Sidebar */}
           <div
