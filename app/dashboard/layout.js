@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useState, useEffect } from "react";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 
 import { useRouter } from 'next/navigation'
